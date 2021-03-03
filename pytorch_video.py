@@ -25,8 +25,8 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument("-i", "--input", type=str, required=True,
                     help="path to input video file")
-parser.add_argument("-o", "--output", type=str,
-                    help="path to (optional) output video file")
+#parser.add_argument("-o", "--output", type=str,
+#                    help="path to (optional) output video file")
 parser.add_argument("-m", "--model", type=str, default="resnet_fpn",
                     help="which model to use, currently you can use only \
                           resnet_fpn and mobilenetv2, default=resnet_fpn")
